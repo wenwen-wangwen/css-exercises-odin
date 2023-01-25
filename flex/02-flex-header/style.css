@@ -32,7 +32,15 @@ a {
   padding: 10px;
 }
 
+/* All things below (commented out) can be replaced by this */
 ul {
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ul {
   margin: 0;
   padding: 0;
 }
@@ -46,9 +54,9 @@ ul {
 }
 
 li {
-  margin-right: 10px;
-}
+  margin-right: 8px;
+} */
 
 .logo {
-  /* ???TODO: how to place it in the center horizontally? */
+  /* ???how to place it in the center horizontally? A: absolute positioning is my guess, which I'll learn shortly*/
 }
