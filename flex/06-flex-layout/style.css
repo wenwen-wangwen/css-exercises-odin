@@ -32,7 +32,7 @@ body {
   flex-direction: column;
 }
 
-.header {
+.header, .footer {
   display: flex;
   padding: 16px;
   justify-content: space-between;
@@ -46,15 +46,14 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-items: center;
   flex: 1;
   justify-content: center;
-  text-align: center; 
 }
 
 a:link{
   text-decoration: none;
-  color: gray;
+  color: #666;
 }
 
 ul {
@@ -64,9 +63,6 @@ ul {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
   background-color: #eeeeee;
 }
 
