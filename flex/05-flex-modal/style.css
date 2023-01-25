@@ -73,8 +73,8 @@ button.cancel {
 }
 
 .icon {
-  flex: 1 0 auto;
-  /* Is 1 a good idea? */
+  flex-shrink: 0;
+  /* No need to set grow and basis, only shrink is relevant here */
 }
 
 .message {
