@@ -23,3 +23,32 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.left-links ul {
+  display: flex;
+}
+
+.right-links ul {
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.logo {
+  /* ???TODO: how to place it in the center horizontally? */
+}
