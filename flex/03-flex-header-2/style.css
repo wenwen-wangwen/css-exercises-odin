@@ -48,30 +48,29 @@ ul {
 }
 
 
-/* My Lines */
+/* My Solution */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .links {
   display: flex;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.left {
+.left, .right {
   display: flex;
-  margin-left: 8px;
+  align-items: center;
   gap: 16px;
 }
 
 .right {
-  display: flex;
-  gap: 16px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
 }
 
-ul {
-  padding: 0;
-}
+/* I didn't realise it was the margin & padding of ul, not flex settings made the links stay in the center */
