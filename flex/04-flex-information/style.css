@@ -24,3 +24,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Solution */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  /* TODO: why? */
+}
+
+.media-object {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 200px; */
+  text-align: center;
+}
