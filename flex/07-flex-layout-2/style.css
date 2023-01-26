@@ -40,8 +40,8 @@ body {
 
 .header {
   font-size: 32px;
-  font-weight: 700;
-  padding-left: 10px;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .main {
@@ -50,10 +50,13 @@ body {
 }
 
 .sidebar {
-  min-width: 350px;
+  /* min-width: 300px; */
+  /* WHY???? */
+  flex-shrink: 0;
+  padding: 16px;
 }
 
-a:link {
+a {
   text-decoration: none;
   color: white;
 }
@@ -61,11 +64,13 @@ a:link {
 ul {
   list-style: none;
   margin: 0;
-  padding: 10px;
+  padding: 0;
+  
 }
 
 li {
   margin-bottom: 10px;
+  font-size: 24px;
 }
 
 .cards {
@@ -79,7 +84,7 @@ li {
 .card {
   width: 350px;
   height: 200px;
-  padding: 6px;
+  padding: 16px;
 }
 
 .footer {
