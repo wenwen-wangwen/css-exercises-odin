@@ -48,3 +48,13 @@ body, html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+
+
+/* My Solution */
+.container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(2, 1fr) 5fr 1fr;
+  gap: 16px;
+}
